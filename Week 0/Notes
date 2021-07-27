@@ -1,1 +1,14 @@
 Professor talked about base2 (I knew already)
+talked about bits, bytes and stuff, which I learned from AP COMPSCI.
+0 and 1, which I knew too...
+professor explained how the 0 and 1 would apply to computers.. which I already knew too..
+8 bit = bytes and maximum possibility is 256, highest value is 255 (Knew this too)
+Professor is talking about efficiency and correctness tradeoff, improving upon an algorithm, he demonstrates this by using a phone book as an example, skipping pages increase efficiency but also decreases accuracy.
+Professor started tearing phonebooks in half... actually a pretty smart design for the solution...
+If theres 1000 pages, going one by one to find what you're looking for takes 1000 flips, if you're tearing the book in half, it takes 10 tears in total.
+Professor just leaked his number 949-468-(2750)
+1 page at a time slope = n
+2 page at a time slope = n/2
+half of the book at a time = log base 2 n
+Professor started to talk about pseudocode, talking about logic and steps and stuff, which I'm really familiar with since I learned python for APCOMPSCI.
+NOW WE'RE CODING BABY!!!! but scratch... really... scratch???... At least we're coding :) check out project file in week 0 folder.
