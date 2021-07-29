@@ -1,1 +1,29 @@
 Ok, week 1's work is on C, harvard cs50 wants me to use their ide, but ill rather use vscode.
+professor just dumped a code on us. the program was:
+
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Hello, world");
+}
+
+ok... so the professor just turned the code into binary... source code into machine code, source code is c and machine code is binary, 
+a complier turns source code into machine code.
+
+oh god, the cs50 ide the professor used is so ancient
+
+tried to use terminal to open up my hello world code but i didnt work, permisson denied. then i remembered a CTF from picoCTF by CMU and used chmod +x on the file...
+broke my whole workplace.....
+
+Ok.. so its completely broken...
+
+Im reinstalling vscode now... 
+
+still not working. i broke the ide.
+
+oh nice i fixed it. i used the debugger and it worked, idk how but it did B)
+
+professor is using a cs50 library. I dont have access to that.. I'll write some functions tonight and put it into my own library.
+
+im almost 40 minutes into the video... professor is just putting code up without explaining them.. telling me to take it with faith... hope he explains it soon.
