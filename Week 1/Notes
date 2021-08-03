@@ -1,29 +1,66 @@
 Ok, week 1's work is on C, harvard cs50 wants me to use their ide, but ill rather use vscode.
 professor just dumped a code on us. the program was:
-
+------------------------
 #include <stdio.h>
 
 int main(void)
 {
     printf("Hello, world");
 }
+------------------------
+ok ok, 2 hours in, the thing is in my muscle memory now
 
-ok... so the professor just turned the code into binary... source code into machine code, source code is c and machine code is binary, 
-a complier turns source code into machine code.
+new code with loops
+------------------------
+#include <stdio.h>
 
-oh god, the cs50 ide the professor used is so ancient
+// prototype
+void meow(int n);
 
-tried to use terminal to open up my hello world code but i didnt work, permisson denied. then i remembered a CTF from picoCTF by CMU and used chmod +x on the file...
-broke my whole workplace.....
+int main(void)
 
-Ok.. so its completely broken...
+{
+    meow(3);
+}
 
-Im reinstalling vscode now... 
 
-still not working. i broke the ide.
+void meow(int n)
+{
+    for (int i = 0; i < n; i++)
+        {
+            printf("MEOW!\n");
+        }
+}
+------------------------
+very intersting, C is a very interesting yet very not coder friendly language
+the cs50 ide is not bad... 
 
-oh nice i fixed it. i used the debugger and it worked, idk how but it did B)
+found something interesting, the do while functions, it doesnt exist in python but it seems useful in some instances
+example
+------------------------
+int n;
+do
+{
+    n = get_int("width: ");
+}
+while (n <  1);
+------------------------
+this just means that ask for input first no matter what, then if n is less than 1, ask whatever is in do again, if n is more than 1 then the code proceeds. 
+This makes sure that the user enters positive value.
 
-professor is using a cs50 library. I dont have access to that.. I'll write some functions tonight and put it into my own library.
-
-im almost 40 minutes into the video... professor is just putting code up without explaining them.. telling me to take it with faith... hope he explains it soon.
+professor just wrote a nested for loop in C, very long 
+example
+------------------------
+for (int i = 0, i < 3, i++)
+    {
+        for (int j = 0, j < 3, j++)
+            {
+                printf("#")
+            }
+        printf("\n")
+    } 
+------------------------
+professor mentioned something funny, the Y2K, which was very intersting and I saw on youtube before and also he mentioned that- 
+in 19 january, 2038 the world might experience Y2K again because the 32 bits stored in seconds would ran out. In 1 january, 1970 was when the counter started.
+When the date comes, instead of the actual date, the date would be back to 1/1/1970, just like Y2K when it went to 1900 instead of 2000
+NICE CLASS 8/10 VERY NEWBIE FRIENDLY :)
