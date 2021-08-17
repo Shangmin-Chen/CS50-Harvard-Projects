@@ -1,1 +1,19 @@
+20:30 into the video, its kinda late at night so im going to sleep, but so far the professor started to explain a lot of the stuff that I wanted to know on week 1
 
+He explained the complier, which is very interesting, I wish he would've explained when he first introduced it but its fine.
+
+Complier we're using is clang, it takes the C code and converts it into assembly code then into 1's and 0's aka machine code.
+
+the make function that was included in the cs50 library is actually mostly just
+
+clang -o (name of file) (c file)
+
+but if you have an added library from #include then you have to link it
+
+clang -o (name of file) (c file) -l(library)
+
+-o stands for output
+
+-l stands for link
+
+------ time for bed :) Aug 17 21
