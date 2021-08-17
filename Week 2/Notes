@@ -17,3 +17,13 @@ clang -o (name of file) (c file) -l(library)
 -l stands for link
 
 ------ time for bed :) Aug 17 21
+
+omg... i just found out how a debugger works... I've been trying to debug with print for so long. My teacher is actually trolling by not teaching us how to use a debugger.
+
+debugger is going to be my best friend when im writing a harder code.
+
+rubber ducky debug sounds very stupid but may be also very very helpful
+
+50 minutes in 50:42, professor is now finally onto the topic of arrays.
+
+Professor is now talking about bytes and rams, very interesting because now we're relating to hardware.
