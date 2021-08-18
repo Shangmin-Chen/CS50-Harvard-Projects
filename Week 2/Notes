@@ -27,3 +27,23 @@ rubber ducky debug sounds very stupid but may be also very very helpful
 50 minutes in 50:42, professor is now finally onto the topic of arrays.
 
 Professor is now talking about bytes and rams, very interesting because now we're relating to hardware.
+
+----
+// how to set up arrays
+
+//int array_name[total_number_of_items];
+int scores[3];
+// declaring items in list
+scores[0] = value1;
+scores[1] = value2;
+scores[2] = value3;
+----
+turns out that strings are just characters in an array.
+if string array has 3 total values
+array[3];
+then that means that you can store up to 3 values. [0][1][2] and then [3] is not accessible but is occupied with \0 which tells the array that it ends *null char
+\0 ascii is null aka value 0
+
+ohhhh man things are getting interesting with looking at memory... i touched on this with CTF but now I really do hope the professor elaborates on this topic
+
+
