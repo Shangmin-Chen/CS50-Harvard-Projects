@@ -45,5 +45,10 @@ then that means that you can store up to 3 values. [0][1][2] and then [3] is not
 \0 ascii is null aka value 0
 
 ohhhh man things are getting interesting with looking at memory... i touched on this with CTF but now I really do hope the professor elaborates on this topic
+----
+aug 18 21, professor did not dig deeper into memory, but he did mention how the array of arrays and ascii int helps make encrypted messages.
+these messages are created by having input, key, and output.
 
-
+Note *
+I'm going to take a break on cs50 to work on a udemy course I bought, Im trying to create a website for my mom's business. It's a 60 hour course so I'll be back on
+cs50 full time after a week or so because I still have summer work in between.
