@@ -43,8 +43,8 @@ pros- good for big datasets
 con- needs to be in order
 
 LOOK FOR THE ***TRADEOFF***, SOMETIMES YOU WANT LINEAR SEARCH INSTEAD OF BINARY SEARCH
-———————————————————————————
 
+———————————————————————————
 Sorting method 1 == selection sort
 
 When sorting a data set, you can swap datas in an arrary as a way to sort.
@@ -63,8 +63,8 @@ n^2/2 + n/2
 the only factor that matters is n^2/2
 
 O(n^2) == selection sort
-———————————————————————————
 
+———————————————————————————
 Sorting method 2 == bubble sort
 
 When sorting, you swap adjectent data in the array/ It's relative to eachother
@@ -89,5 +89,19 @@ the only factor that matters is n^2
 
 O(n^2) == bubble sort
 
+———————————————————————————
+recursion, calling a function inside a function
+
+———————————————————————————
+Merge Sort
+The better version of sorting
+
+hard to write down but what the professor said was
+
+split an array into an array into an array
+
+left half of left half of an array => left half of an array => array
+
+O(n log n)
 
 
