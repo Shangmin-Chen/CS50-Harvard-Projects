@@ -1,5 +1,5 @@
 Linear search is bad,
-log search is way faster.
+log/binary search is way faster.
 
 establish lists by doing
 
@@ -32,3 +32,62 @@ int main(void)
   people[1].name = ""
   people[1].number = ""
 }
+
+———————————————————————————
+linear searching
+pros- good for small data sets
+con- slow
+
+binary searching 
+pros- good for big datasets
+con- needs to be in order
+
+LOOK FOR THE ***TRADEOFF***, SOMETIMES YOU WANT LINEAR SEARCH INSTEAD OF BINARY SEARCH
+———————————————————————————
+
+Sorting method 1 == selection sort
+
+When sorting a data set, you can swap datas in an arrary as a way to sort.
+
+for i from 0 to n-1
+  find smallest item between i'th item and last item
+  swap smallest item with i'th item
+
+Calculating running time
+n + (n-1) + (n-2) + (n-3)...
+n(n+1)/2
+n^2+n/2
+
+n^2/2 + n/2
+
+the only factor that matters is n^2/2
+
+O(n^2) == selection sort
+———————————————————————————
+
+Sorting method 2 == bubble sort
+
+When sorting, you swap adjectent data in the array/ It's relative to eachother
+
+Repeat until sorted
+  For i from 0 to n-2
+    If i'th and i+1'th elements out of order
+      swap them
+If no swaps
+  Quit
+
+Repeat n-1 times <=== you dont hav eto do repeat until sorted.
+  For i from 0 to n-2
+    If i'th and i+1'th elements out of order
+      Swap them
+
+Calculating running time
+(n-1) * (n-1)
+n^2 - 2n + 1
+
+the only factor that matters is n^2
+
+O(n^2) == bubble sort
+
+
+
