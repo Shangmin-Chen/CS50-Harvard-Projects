@@ -1,1 +1,34 @@
-1
+Linear search is bad,
+log search is way faster.
+
+establish lists by doing
+
+int numbers[] = {1, 5, 7, 8, 2, 3};
+
+with that you dont have to establish how many in a list like before.
+
+using <string.h>
+we can use strcmp(item1, item2), if it equals then return 0, then if item1 is alphabetically before item2 then return -number, otherwise +number. It's Ascii values.
+
+if you use strcmp in an if statement, make sure its strcmp(item1, item2) == 0;
+
+use string for numbers if you're not gonna do math on it.
+
+New syntax
+
+typedef struct
+{
+  string name;
+  string number;
+}
+person;
+
+int main(void)
+{
+  person people[2];
+  people[0].name = "Brian"
+  people[0].number = "+1-123-123-1234"
+  
+  people[1].name = ""
+  people[1].number = ""
+}
